@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API CRUD(failed)">
+    <classes>
+      <class name="APItests.test.EmployeeAPIE2ETests">
+        <methods>
+          <include name="teardownAfterTest"/>
+          <include name="setupBeforeTest"/>
+          <include name="TC05"/>
+        </methods>
+      </class> <!-- APItests.test.EmployeeAPIE2ETests -->
+    </classes>
+  </test> <!-- API CRUD(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
